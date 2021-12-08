@@ -5275,7 +5275,7 @@ ul.course-feature2 li:before {
 /*=======================================================================
 [15] Courses Area
 =========================================================================*/
-.courses-page-top-area {
+/* .courses-page-top-area {
   border: 1px solid #e0e0e0;
   background: #FFFFFF;
   display: -webkit-box;
@@ -6523,7 +6523,85 @@ ul.course-feature2 li:before {
   -ms-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+} */
+
+.course-area{
+  padding: 100px 0;
+  background-color: #eef1f5;
+  position: relative;
 }
+
+.cr-head p{
+  color: #002147;
+  font-size: 19px;
+  margin-bottom: 0px;
+}
+
+.cr-head h1{
+  color: #020334;
+  font-size: 40px;
+  margin-bottom: 60px;
+  font-weight: 700;
+}
+
+.course-item{
+    box-shadow: 0px 20px 60px 0px rgb(0 15 56 / 10%);
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    min-height: 420px;
+}
+
+.cr-inner{
+  padding: 35px 35px 35px;
+}
+
+.cr-inner span.cr-name{
+    font-size: 14px;
+    line-height: 28px;
+    color: #bb1bfe;
+    background-color: rgba(187, 27, 254, 0.06);
+    border-radius: 12px;
+    padding: 3px 14px 4px;
+}
+
+.cr-inner h3{
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 14px 0 20px;
+  font-weight: 700;
+  color: #020334;
+}
+
+.cr-inner h3 span{
+  font-weight: 500;
+}
+
+.cr-img img{
+  border-radius: 10px 10px 0 0;
+}
+
+.cr-duration{
+  display: flex;
+}
+
+.card-icon img{
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: rgba(42, 109, 245, 0.06);
+  padding: 7px;
+  color: #2a6df5;
+}
+
+.cr-inner .duration{
+    font-weight: 500;
+    font-size: 15px;
+    color: #4b4c57;
+    padding-left: 7px;
+}
+
 /*=======================================================================
 [16] News and Event Area
 =========================================================================*/
